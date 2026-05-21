@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Grocery Bill Calculator</h1>
+        
+        <div class="message">
+            <p>Enter quantities for each item. Prices are fixed per item/kg.</p>
+        </div>
+        
+        <form action="index.php" method="post" class="form-container">
+            <div class="form-row">
+                <label>Biscuits <span class="price">(Rs50 each)</span></label>
+                <input type="number" name="biscuits" value="0" min="0" required>
+            </div>
+
+            <div class="form-row">
+                <label>Noodles <span class="price">(Rs100 each)</span></label>
+                <input type="number" name="noodles" value="0" min="0" required>
+            </div>
+
+            <div class="form-row">
+                <label>Bread <span class="price">(Rs40 each)</span></label>
+                <input type="number" name="bread" value="0" min="0" required>
+            </div>
+
+            <div class="form-row">
+                <label>Milk <span class="price">(Rs60 each)</span></label>
+                <input type="number" name="milk" value="0" min="0" required>
+            </div>
+
+            <div class="form-row">
+                <label>Eggs <span class="price">(Rs5 each)</span></label>
+                <input type="number" name="eggs" value="0" min="0" required>
+            </div>
+
+            <div class="form-row">
+                <label>Dhal <span class="price">(Rs75 per kg)</span></label>
+                <input type="number" name="dhal" value="0" min="0" required step="0.1">
+            </div>
+
+            <button type="submit">
+                💰 Calculate Total Bill
+            </button>
+        </form>
+    </div>
+</body>
+</html>
