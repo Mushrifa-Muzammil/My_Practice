@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internet Usage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h2>Internet Usage Summary</h2>
+
+<form action="index.php" method="post" onsubmit="return validateForm()">
+
+    <label>Client's Name</label>
+    <input type="text" name="name" id="name">
+
+    <label>Account Number</label>
+    <input type="text" name="account" id="account">
+
+    <label>Type</label>
+    <input type="radio" name="type" value="4G"> 4G
+    <input type="radio" name="type" value="Fiber" checked> Fiber
+
+    <label>Internet Package</label>
+    <select name="package">
+        <option value="Basic">Basic</option>
+        <option value="Web Lite">Web Lite</option>
+        <option value="Any Blast">Any Blast</option>
+        <option value="Family Plan">Family Plan</option>
+    </select>
+
+    <label>Extra GB Used</label>
+    <input type="number" name="extra_gb" id="extra_gb">
+
+    <input type="submit" value="Calculate">
+
+</form>
+
+</body>
+</html>
