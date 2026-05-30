@@ -1,0 +1,307 @@
+@media (max-width: 1200px) {
+    .text-content {
+        width: 80%;
+    }
+    
+    .newsletter {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1024px) {
+    /*about section*/
+    .about-section .text-sec {
+        padding-left: 1rem;
+    }
+    
+    .story-section {
+        height: auto;
+        min-height: 25rem;
+    }
+    
+    .testimonial-section .carousel-item {
+        padding: 5rem 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    /*custom classes*/
+    .text-content {
+        width: 100%;
+    }
+    
+    .wrapper {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    /*navbar brand*/
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+        padding: 0.5rem 0;
+    }
+    
+    .navigation-wrap .main-btn {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    /*banner design*/
+    .top-banner {
+        padding: 12rem 0 8rem;
+    }
+    
+    .top-banner h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /*carousel design*/
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0 5%;
+    }
+    
+    /*about section*/
+    .about-section .text-sec {
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+    
+    .food-type .text-sec {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    /*custom css*/
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .wrapper {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    /*top banner*/
+    .top-banner {
+        padding: 10rem 0 6rem;
+        text-align: center;
+    }
+    
+    .top-banner h1 {
+        font-size: 2.2rem;
+    }
+    
+    .white-btn {
+        margin-left: 0 !important;
+    }
+
+    /*story section*/
+    .story-section {
+        height: auto;
+        padding: 4rem 0;
+    }
+    
+    .story-section h2 {
+        font-size: 1.8rem;
+    }
+
+    /*carousel design*/
+    .testimonial-section .carousel-item {
+        padding: 4rem 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    .testimonial-section .carousel-item .carousel-caption p {
+        font-size: 1rem;
+        line-height: 1.75rem;
+        padding: 0;
+    }
+
+    /*newsletter*/
+    .newsletter {
+        width: 85%;
+    }
+    
+    .newsletter-form .row {
+        flex-direction: column;
+    }
+    
+    .newsletter-form .col-md-8,
+    .newsletter-form .col-md-4 {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .newsletter-form .col-md-8 {
+        margin-bottom: 1rem;
+    }
+
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .newsletter h2 {
+        font-size: 1.5rem;
+    }
+
+    /*footer link*/
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.5rem;
+    }
+    
+    .footer-social {
+        padding-top: 2rem !important;
+    }
+    
+    /*counter section*/
+    .counter-section .col-md-3 {
+        margin-bottom: 2rem !important;
+    }
+    
+    /*explore food*/
+    .explore-food .card {
+        margin-bottom: 2rem;
+    }
+    
+    /*faq*/
+    .faq .col-sm-6 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+    
+    .top-banner {
+        padding: 8rem 0 4rem;
+    }
+    
+    .main-btn,
+    .white-btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.875rem;
+    }
+    
+    .newsletter {
+        width: 95%;
+    }
+    
+    .testimonial-section .carousel-item {
+        padding: 3rem 1rem;
+    }
+    
+    .footer .footer-link {
+        display: block;
+        padding: 0.5rem 0;
+    }
+    
+    .book-food-text h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .top-banner h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .story-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 330px) {
+    /*carousel design*/
+    .testimonial-section .carousel-item {
+        padding: 2.5rem 1rem;
+    }
+    
+    .top-banner {
+        padding: 7rem 0 3rem;
+    }
+    
+    .wrapper {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .footer a i {
+        font-size: 1.25rem;
+        padding: 0 0.5rem;
+    }
+}
+
+/* Landscape mode for mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .top-banner {
+        padding: 8rem 0 4rem;
+        min-height: 100vh;
+    }
+    
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+}
+
+/* High resolution devices */
+@media (min-resolution: 192dpi) {
+    .top-banner,
+    .story-section,
+    .book-food {
+        background-size: cover;
+    }
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .about-section,
+    .explore-food,
+    .faq {
+        background-color: #f8f9fa;
+    }
+}
